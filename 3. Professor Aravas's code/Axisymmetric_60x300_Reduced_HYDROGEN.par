@@ -1,0 +1,98 @@
+*PARAMETER
+** <ABAQUS comment>
+*** MATERIAL PARAMETERS <ABAQUS comment>
+** <ABAQUS comment>
+** normalizing parameters <ABAQUS comment>
+ C0 = 2.08372E21 <= 2.08372e+21>
+ S0 = 540.E6 <= 540000000.0>
+ L  = 1.E0 <= 1.0>
+ T0 = 1.E5 <= 100000.0>
+ R  = 8.3144E0 <= 8.3144>
+ T  = 300.E0 <= 300.0>
+*** Scale factor parameter for diffusion problem <ABAQUS comment>
+ SFD  = 1.E0 <= 1.0>
+** normalized material data <ABAQUS comment>
+ AE      = (220.E9)/S0 <= 407.4074074074074>
+ POISSON = 0.3E0 <= 0.3>
+ SIG0    = (540.E6)/S0 <= 1.0>
+ EXPO    = 10.E0 <= 10.0>
+ AE0     = SIG0/AE <= 0.0024545454545454545>
+** <ABAQUS comment>
+ D      = (5.E-9)/(L*L/T0) <= 0.0005>
+ VH     = (2.E-6)/(R*T/S0) <= 0.43298373905513327>
+ KT     = 2.8E10 <= 28000000000.0>
+ ALPHA  = 1.E0 <= 1.0>
+ NL     = (8.46E28)/C0 <= 40600464.55377882>
+ BETA   = 1.E0 <= 1.0>
+ LAMBDA = 0.281E0 <= 0.281>
+ ALFREQ = (11.8449E0)/(1./T0) <= 1184490.0>
+ RHO0   = (7850.E4)/((S0*T0*T0)/(L*L)) <= 1.4537037037037037e-11>
+ AMU0   = (0.E0)/(R*T) <= 0.0>
+ P0     = (0.E0)/S0 <= 0.0>
+ EBARDOT0 = (1.E-6)/(1./T0) <= 0.09999999999999999>
+** <ABAQUS comment>
+ EPCL  = 0.03 <= 0.03>
+ SC    = (4050.E6)/S0 <= 7.5>
+ C1    = 0.4 <= 0.4>
+ C2    = 2.266 <= 2.266>
+ C3    = 0.1 <= 0.1>
+ C4    = 1.131 <= 1.131>
+ ETAC  = -0.33 <= -0.33>
+ GF    = (3591.E6)/S0 <= 6.65>
+ D1    = 0.37 <= 0.37>
+ D2    = 0.5449 <= 0.5449>
+ D3    = 0.85 <= 0.85>
+ D4    = 0.3926 <= 0.3926>
+** <ABAQUS comment>
+*** LOADING PARAMETERS <ABAQUS comment>
+** <ABAQUS comment>
+ CL0B    = (2.08372E21)/C0 <= 1.0>
+ PB      = (20.E6)/S0 <= 0.037037037037037035>
+** <ABAQUS comment>
+ TSTEP1   = (2000.)/T0 <= 0.02>
+ TINTERM1 = (100.)/T0 <= 0.001>
+ TMAX1    = (0.8333)/T0 <= 8.333e-06>
+ TINIT1   = (0.001)/T0 <= 1e-08>
+ DTMIN1   = (0.000001)/T0 <= 1e-11>
+ USTEP1   = (0.00024)/L <= 0.00024>
+** <ABAQUS comment>
+ TSTEP2   = (11600.)/T0 <= 0.116>
+ TMAX2    = (0.8333)/T0 <= 8.333e-06>
+ TINIT2   = (0.8333)/T0 <= 8.333e-06>
+ DTMIN2   = (0.000001)/T0 <= 1e-11>
+ USTEP2   = (0.001632)/L <= 0.001632>
+** <ABAQUS comment>
+ TSTEP3   = (2400.)/T0 <= 0.024>
+ TMAX3    = (0.833)/T0 <= 8.33e-06>
+ TINIT3   = (0.833)/T0 <= 8.33e-06>
+ DTMIN3   = (0.000001)/T0 <= 1e-11>
+ USTEP3   = (0.00192)/L <= 0.00192>
+** <ABAQUS comment>
+ TSTEP4   = (3500.)/T0 <= 0.035>
+ TMAX4    = (0.41667)/T0 <= 4.1666999999999994e-06>
+ TINIT4   = (0.41667)/T0 <= 4.1666999999999994e-06>
+ DTMIN4   = (0.000001)/T0 <= 1e-11>
+ USTEP4   = (0.00234)/L <= 0.00234>
+** <ABAQUS comment>
+ TSTEP5   = (3850.)/T0 <= 0.0385>
+ TMAX5    = (0.1)/T0 <= 1e-06>
+ TINIT5   = (0.1)/T0 <= 1e-06>
+ DTMIN5   = (0.000001)/T0 <= 1e-11>
+ USTEP5   = (0.002802)/L <= 0.002802>
+** <ABAQUS comment>
+ TSTEP6   = (1250.)/T0 <= 0.0125>
+ TMAX6    = (0.1)/T0 <= 1e-06>
+ TINIT6   = (0.1)/T0 <= 1e-06>
+ DTMIN6   = (0.000001)/T0 <= 1e-11>
+ USTEP6   = (0.002952)/L <= 0.002952>
+** <ABAQUS comment>
+ TSTEP7   = (19.4)/T0 <= 0.000194>
+ TMAX7    = (0.1)/T0 <= 1e-06>
+ TINIT7   = (0.1)/T0 <= 1e-06>
+ DTMIN7   = (0.000001)/T0 <= 1e-11>
+ USTEP7   = (0.002954328)/L <= 0.002954328>
+** <ABAQUS comment>
+** <ABAQUS comment>
+************************ NODES ************************** <ABAQUS comment>
+********************************************************* <ABAQUS comment>
+** <ABAQUS comment>

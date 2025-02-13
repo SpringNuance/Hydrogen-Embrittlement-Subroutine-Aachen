@@ -1,0 +1,1 @@
+abaqus job=Axisymmetric_60x300_Reduced_HYDROGEN user="UMAT_2D_3D_Hydrogen_Damage_Quad_Hex.for" double output_precision=full cpus=1 -verbose 1 memory=2048 interactive
