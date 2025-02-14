@@ -980,7 +980,7 @@ subroutine UMATHT(u,dudt,dudg,flux,dfdt,dfdg, &
     if (ntrap >= 1) then
         if (dis_trap_mode == 1) then ! Krom et al. (in sites/m^3), developed from Kumnick & Johnson 
             NT_dis = 10.d0 ** (23.26d0 - 2.33d0 * dexp(-5.5d0 * eqplas)) 
-            dNT_dis_mol_deqplas = (29.5d0 * dexp(-5.5d0 * eqplas) * NT_dis ) / avogadro
+            dNT_dis_mol_deqplas = (29.5076d0 * dexp(-5.5d0 * eqplas) * NT_dis ) / avogadro
         
         elseif (dis_trap_mode == 2) then ! Dadfarnia et al.
             
